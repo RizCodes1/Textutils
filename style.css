@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#maininput{
+    margin-bottom: 50px;
+    max-width: 100%;
+    width: 95%;
+    min-width: 95%;
+    margin-top: 50px;
+    text-align: start;
+    padding: 5px;
+    max-height: 400px;
+    height: 300px;
+    min-height: 300px;
+}
+
+button{
+    background-color: #0d6efd;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#messager{
+    visibility: hidden;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+}
+#mainText{
+font-size: 25px;
+cursor: text;
+}
+a{
+    margin-right: 150px;
+    cursor: pointer;
+    color: #dee2e6;
+    text-decoration: none;
+}
+#mainnav{
+margin-top: 0px;
+background-color:#2b3035;
+color: #dee2e6;
+width: 99.20%;
+height: 56px;
+font-size: 20px;
+padding-top: 10px;
+padding-left: 10px;
+text-align: left;
+
+}
+#input{
+margin-left: 100px;
+height: 37px;
+width: 206px;
+text-align: start;
+}
+#search{
+color: #28A745;
+background-color: transparent;
+border: 2px solid #28A745;
+height: 37px;
+width: 72px;
+cursor: pointer;
+margin-left: 20px;
+}
+#search:hover{
+color: white;
+background-color: #28A745;
+transition: all 0.3s ease-in;
+}
+#search:active{
+    color: white;
+background-color: #28A745;
+box-shadow: 0px 0px 20px #28a746;
+transition: all 0.3s ease-in;
+}
+#Home:hover{
+text-decoration: underline;
+}
+#About:hover{
+    text-decoration: underline;
+}
